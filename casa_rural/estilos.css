@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+}
+
+#danger{
+    margin-top: 10px;
+    margin-right: 15px;
+    color: rgb(136, 136, 141);
+    float: right;
+
+}
+
+#danger:hover{
+    background-color: red;
+}
+
+#overhead{
+    background-color: black;
+    height: 33px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#hero{
+    padding-top: 15px;
+    width:100%;
+    height: 290px;
+    background-image: url("IMG/sierra.jpg");
+    background-repeat: none;
+    background-size: 100%;
+    background-position: center;
+}
+
+#caja1{
+
+    border-radius: 25px;
+    float:left;
+    margin-left:10%;
+    max-width:480;
+    width:40%;
+    max-height:280px;
+    height:100%;
+    background-color: aqua;
+    background-image: url(https://img.holidu.com/images/15609f53-829a-428c-83a3-bebd3f262df2/l.avif);
+    background-size: 100%;
+    box-shadow: 4px 4px 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#caja2{
+    border-radius: 25px;
+    float:right;
+    margin-top:8px;
+    margin-left:8px;
+    margin-bottom:8px;
+    margin-right:5%;
+    width:40%;
+    height:aut;
+    max-width:500px;
+    max-height:260px;
+    box-shadow: 4px 4px 8px;
+    background-repeat: no-repeat;
+}
+
+#img2{
+    border-top-left-radius: 25px;
+    float: left;
+    height: 45%;
+    width: 49%;
+    background-color: green;
+    background-image: url("https://media.er2.co/es/jaen/0000000014260/1600/5550ca9c4de97.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img3{
+    border-top-right-radius: 25px;
+    float: right;
+    height: 45%;
+    width: 49%;
+    background-color: yellow;
+    background-image: url("https://www.traumfincas.com/wp-content/uploads/2019/02/LEO_0506-Large-670x530.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img4{
+    border-bottom-left-radius: 25px;
+    margin-top: 2%;
+    float: left;
+    height: 41%;
+    width: 49%;
+    background-color: purple;
+    background-image: url("https://media3.clubrural.com/imgmarcao/jaen/casa-rural-huerta-del-cura/183677_casa-rural-huerta-del-cura_1489583297_o.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img5{
+    border-bottom-right-radius: 25px;
+    margin-top: 2%;
+    float: right;
+    height: 41%;
+    width: 49%;
+    background-image: url("https://media3.clubrural.com/img695x521/jaen/la-lagunilla/177553_la-lagunilla_0190724001477554149_o.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: chocolate;
+}
+
+
+
+#navbar{
+    padding-left: 10%;
+    margin-top: 10px;
+    width: auto;
+    height:39px;
+    background-color: black;
+
+}
+
+.button{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    text-align: center;
+    float:left;
+    height: 24px;
+    width: 120px;
+    background-color: black;
+    color:white;
+}
+
+.button:hover{
+    background-color: white;
+    color: blue;
+}
+
+a:hover{
+    color: white;
+}
+
+#main-box{
+    width:100%;
+    height:600px;
+    background-color: white;
+    
+}
+
+#footer{
+    width:100%;
+    height:44px;
+    background-color: yellow;
+}
