@@ -114,14 +114,12 @@ body{
     background-color: chocolate;
 }
 
-
-
 #navbar{
     padding-left: 10%;
     width: 100%;
     height:44px;
     background-color: black;
-    box-shadow: 0px 3px 8px 0px  rgb(0, 4, 255);
+   
 }
 
 .button{
@@ -146,19 +144,148 @@ a:hover{
 }
 
 #main-box{
-    margin-top: 20px;
+    margin-top: 0px;
     width:900px;
-    height:600px;
+    height:620px;
     margin-left:50%;
     transform: translateX(-50%);
     background-color: rgb(209, 235, 235);
-    margin-bottom: 20px;
-    box-shadow: 10px 10px 40px 0px black;
+    margin-bottom: 5cqb;
+    box-shadow: 10px 10px 10px 5px lightskyblue;
 
 }
 
 #footer{
     width:100%;
-    height:44px;
-    background-color: yellow;
+    height:250px;
+    background-color: rgb(65, 65, 65);
+}
+
+#box1{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    padding: 15px;
+    width: 500px;
+    height auto;
+    background-color: cyan;
+}
+
+#box2{
+    margin-top: -228px;
+    margin-left: 20px;
+    float: left;
+    padding: 15px;
+    width: 270px;
+    height auto;
+    background-color: aquamarine;
+
+}
+
+#cont_texto{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#titulo{
+    height: 80px;
+    width: 280px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    
+
+}
+
+#cajaImg{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding: 10px;
+    float: right;
+    width: 200px;
+    height: 135px;
+    background-color: aliceblue;      
+
+}
+
+#imagen{
+    max-width: 100%;
+    max-height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#restaurante{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 780;
+    height: 240;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 20px;
+
+}
+
+#aire_libre{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 780;
+    height: 240;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 20px;
+}
+
+#restIMG{
+    margin: 20px;
+    float: right;
+    background-image: url(IMG/img3.jpg);
+    background-position: center;
+    background-size: 100%;
+    width: 270px;
+    height: 180px
+
+}
+
+#aireIMG{
+    margin: 20px;
+    float: right;
+    background-image: url(IMG/img2.jpg);
+    background-position: center;
+    background-size: 100%;
+    width: 270px;
+    height: 180px
+
+}
+
+#footerBox{
+    padding-top: 20px;
+    width: 720;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    height: 180px;
+}
+
+.loremBox{
+    color: lightgray;
+    text-align: center;
+    float:left;
+    width: 220;
+    padding: 10px;
+
+}
+
+#gato{
+    float:right;
+    width: 100px;
+    height: 100px;
+    margin-right: 20%;
+    margin-top: -99px;
 }
