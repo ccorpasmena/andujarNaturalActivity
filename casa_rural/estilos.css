@@ -115,11 +115,9 @@ body{
 }
 
 #navbar{
-    padding-left: 10%;
     width: 100%;
-    height:44px;
-    background-color: black;
-   
+    height:39px;
+    background-color: black;   
 }
 
 .button{
@@ -146,19 +144,20 @@ a:hover{
 #main-box{
     margin-top: 0px;
     width:900px;
-    height:620px;
+    min-height:700px;
+    height: auto;
     margin-left:50%;
     transform: translateX(-50%);
-    background-color: rgb(209, 235, 235);
+    background-color: rgb(253, 253, 253);
     margin-bottom: 5cqb;
-    box-shadow: 10px 10px 10px 5px lightskyblue;
+    
 
 }
 
 #footer{
     width:100%;
     height:250px;
-    background-color: rgb(65, 65, 65);
+    background-image: linear-gradient(rgb(15, 15, 15), rgb(114, 112, 112));
 }
 
 #box1{
@@ -168,18 +167,16 @@ a:hover{
     padding: 15px;
     width: 500px;
     height auto;
-    background-color: cyan;
+    background-color: rgb(235, 245, 245);
 }
 
 #box2{
-    margin-top: -228px;
+    margin-top: -270px;
     margin-left: 20px;
     float: left;
     padding: 15px;
     width: 270px;
-    height auto;
-    background-color: aquamarine;
-
+    height: auto;
 }
 
 #cont_texto{
@@ -288,4 +285,62 @@ a:hover{
     height: 100px;
     margin-right: 20%;
     margin-top: -99px;
+}
+
+#danger{
+
+    float: right;
+    color: darkgray;
+
+}
+
+#buttonBox{
+    margin-left:50%;
+    transform:translateX(-50%);
+    width: 900px;
+    padding:0px;
+    border-radius: 25px;
+}
+
+
+#avisita{
+    margin-top: 50px;
+    height: 20;
+    width: 140px;
+    text-align: center;
+    background-image: linear-gradient(rgb(152, 238, 238), rgb(255, 255, 165));
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#avisita:hover{
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 50px;
+    height: 20;
+    width: 140px;
+    text-align: center;
+    background-image: linear-gradient(rgb(75, 189, 189), rgb(196, 196, 97));
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
+    border-width: 1px;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 0px black;
+}
+
+.mini{
+    margin-bottom: 15px;
+    max-width: 270px;
+    max-height: 200px;
+}
+
+iframe{
+    margin-bottom: 50px;
+    background-color: aquamarine;
+    margin-left:50%;
+    transform: translateX(-50%);
 }

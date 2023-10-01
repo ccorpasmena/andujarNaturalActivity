@@ -1,1 +1,179 @@
-{\rtf1}
+<html>
+    <head>
+        <!-- introduccion de estilos solo para index-->
+        <style>
+
+            /* estilo estructura basica*/
+            body{
+                padding:0; 
+                margin:0;
+                background-image: url(fondo_index.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            #boxAire{
+                margin-top: 25px;
+                margin-bottom: 5px;
+                margin-left: 50%;
+                transform: translateX(-50%);
+                width: 900px;
+                height: 300px;
+                border-style: dashed;
+                border-color: gray;
+                border-width: 1px;
+                background-color: white;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+
+            #boxRestaurante{
+                margin-bottom: 5px;
+                margin-left: 50%;
+                transform: translateX(-50%);
+                width: 900px;
+                height: 300px;
+                border-style: dashed;
+                border-color: gray;
+                border-width: 1px;
+                background-color: white;
+            }
+
+            #boxCasa{
+                margin-bottom: 30px;
+                margin-left: 50%;
+                transform: translateX(-50%);
+                width: 900px;
+                height: 300px;
+                border-style: dashed;
+                border-color: gray;
+                border-width: 1px;
+                background-color: white;
+                background-image: linear-gradient(rgb(240, 245, 245), rgb(22, 22, 21, 0.2));
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+
+            #footer{
+                height: 200px;
+                width: 100%;
+                background-image: linear-gradient(rgb(240, 245, 245), rgb(22, 22, 21));
+            }
+
+            #hero{
+                background-image: linear-gradient(rgb(240, 245, 245), rgb(22, 22, 21, 0.1));
+                width: 100%;
+                height: 150px;
+            }
+
+
+            /*-----------------------------*/
+            /* estilo especifico casa rural*/
+
+            #mapa{
+                float:right;
+            }
+
+            #divparrafocasa{
+                padding-left:20px;
+                padding-right:20px;
+                margin-top:10px;
+                margin-left:15px;
+                float: left;
+                width: 540px;
+                height: 270px;
+                background-color: white;
+                border-style:solid;
+                border-width: 1px;
+                border-color: black;
+            }
+
+            #accesocasa{
+                float:right;
+                text-decoration: none;
+                border-radius: 10px;
+                margin-top:50px;
+                border-style:solid;
+                border-width: 1px;
+                border-color: black;
+                background-color: rgb(26, 68, 145);
+                color: yellow;
+                font-weight: bold;
+                padding: 5px;
+
+            }
+
+            #gatito{
+                float:right;
+                margin-left:10px;
+                width:100px;
+                height:100px;
+            }
+
+
+
+
+        </style>
+
+    </head>
+
+    <!-- cuerpo del contenido de la pagina-->
+    <body>
+
+        <!-- Logo de presentación de la página-->
+        <div id="hero"> 
+
+            <center>
+                <br/>
+                <h1>Natural Activity Andujar</h1>
+                <p>Bienvenido a nuestra pagina de actividades y puntos de encuentro de Andujar. </p>
+            </center>
+
+        </div>   
+
+        <!-- bloque del texto de presentación-->
+
+
+
+        <!-- caja de contenidos principal-->
+        <div id="box">
+
+            <!-- Caja de AIRE LIBRE-->
+            <div id="boxAire"><a href="aire_libre/home.html">Aire libre</a></div>
+
+
+
+            <!-- Caja de RESTAURANTE-->
+            <div id="boxRestaurante"><a href="restaurante/home.html">Restaurante</a></div>
+
+
+
+            <!-- Caja de CASA RURAL-->
+            <div id="boxCasa">
+
+                <div id="divparrafocasa"> 
+
+                    <!--texto publicidad casa rural-->
+                    <h3>Casa Rural 'La tranquilidad'</h3><br/>
+                    Descubre la belleza y la serenidad de nuestra encantadora casa rural en 
+                    la pro-<br/>vincia de Jaén.  Ubicada en medio de los olivares andaluces, 
+                    "La Tranquilidad"<br/> es el refugio perfecto para aquellos que buscan escapar 
+                    del bullicio de la ciudad<br/> y disfrutar de la naturaleza.<br/>
+
+                    <!-- enlace de acceso-->
+                    <img id="gatito" src="https://media.tenor.com/XV0kS90Pfi8AAAAi/tired-zzz.gif">
+                    <a id="accesocasa" href="casa_rural/home.html">Accede aquí</a>
+                
+                </div>
+                <!-- embedding de google maps casa rural-->
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1058.0793590748538!2d-4.043856333808622!3d38.03542522909846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6c3111d9f50ab7%3A0x38480c8b0a73be65!2sSecondary%20School%20Ies%20J%C3%A1ndula!5e0!3m2!1sen!2ses!4v1696156587084!5m2!1sen!2ses" width="280" height="270" style="border:0; margin-right:15px; margin-top:10px; border-style: solid; border-width: 1px;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+        </div>
+
+        <!-- footer de la pagina-->
+        <div id="footer"></div>
+
+    </body>
+</html>
