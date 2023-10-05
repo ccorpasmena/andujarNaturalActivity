@@ -149,8 +149,7 @@ a:hover{
     margin-left:50%;
     transform: translateX(-50%);
     background-color: rgb(253, 253, 253);
-    margin-bottom: 5cqb;
-    
+    margin-bottom: 20px;
 
 }
 
@@ -165,7 +164,7 @@ a:hover{
     margin-left: 20px;
     float: left;
     padding: 15px;
-    width: 500px;
+    width: 900px;
     height auto;
     background-color: rgb(235, 245, 245);
 }
@@ -189,8 +188,6 @@ a:hover{
     width: 280px;
     text-align: center;
     background-color: rgb(255, 255, 255, 0.7);
-    
-
 }
 
 #cajaImg{
@@ -202,7 +199,6 @@ a:hover{
     width: 200px;
     height: 135px;
     background-color: aliceblue;      
-
 }
 
 #imagen{
@@ -332,8 +328,16 @@ a:hover{
     box-shadow: 2px 2px 2px 0px black;
 }
 
-.mini{
-    margin-bottom: 15px;
+.miniI{
+    float: left;
+    margin-right: 15px;
+    max-width: 270px;
+    max-height: 200px;
+}
+
+.miniD{
+    float: right;
+    margin-left: 15px;
     max-width: 270px;
     max-height: 200px;
 }
@@ -343,4 +347,16 @@ iframe{
     background-color: aquamarine;
     margin-left:50%;
     transform: translateX(-50%);
+}
+
+#box3{
+
+    height: auto;
+    margin-top: 30px;
+}
+
+#vernos{
+    float: left;
+    margin-left: 50px;
+    margin-top:50px;
 }
