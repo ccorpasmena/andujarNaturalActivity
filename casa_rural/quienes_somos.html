@@ -1,58 +1,91 @@
-<html>
+<!DOCTYPE html>
+<html lang="es"></html>
+
     <head>
+        
+        <!-- declarando titulo de la pagina -->
+        <title>La tranquilidad casa rural</title>
+
+        <!-- Especificando codificacion de caracteres -->
+        <meta charset="utf-8">
+
+        <!-- Referencia a la hoja de estilos -->
         <link rel="stylesheet" href="estilos.css">
+
     </head>
 
     <body>
 
-        <div id="overhead"></div>
+        <!-- Header de la pagina -->
+        <header>
+           
+            <!-- Barra de color sobre hero -->    
+            <div id="overhead"></div>
 
-        <!-- hero de la pagina-->
-        <div id="hero">
+            <!-- hero de la pagina-->
+            <div id="hero">
 
-            <!-- Contenedor de imagen grande del hero-->
-            <div id="caja1">
-            </div>
-            <span clear:both></span>
+                <!-- Contenedor de imagen grande del hero-->
+                <div id="caja1"></div>
+                
+                <!-- Limpiador de flotado -->
+                <span clear:both></span>
 
-            <!-- Contenedor de imagenes pequeñas del hero-->
-            <div id="caja2">
-                <div id="img2"></div>
-                <div id="img3"></div>
-                <div id="img4"></div>
-                <div id="img5"></div>
-            </div>
-            <span clear:both></span>
+                <!-- Contenedor de imagenes pequeñas del hero-->
+                <div id="caja2">
+                    <div id="img2"></div>
+                    <div id="img3"></div>
+                    <div id="img4"></div>
+                    <div id="img5"></div>
+                </div>
+
+                <!-- Limpiador de flotado -->
+                <span clear:both></span>
+
+            </div> <!-- cierra el hero-->
+                
+        </header>
+
+        <!-- Sección de navegación de la pagina-->
+        <nav>
             
-        </div>
-        <div id="navbar">
-            <div id="buttonBox">
-                <a class="button" href="home.html">Home</a>
-                <a class="button" href="acerca_de.html">Acerca de...</a>
-                <a class="button" href="quienes_somos.html">Colaboradores</a>
-                <a id="danger" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Nuestro canal!</a>
-            </div>
+            <!-- Cuerpo de la barra de navegación-->
+            <div id="navbar">
 
-        </div>
+                <!-- Contenedor de los botones-->
+                <div id="buttonBox">
 
-        <div id="main-box">
+                    <a class="button" href="home.html">Home</a>
+                    <a class="button" href="acerca_de.html">Acerca de...</a>
+                    <a class="button" href="quienes_somos.html">Colaboradores</a>
 
-
-                <div id="restaurante">
-                    <div id="restIMG"></div>
-                    <h3>Venid a conocer el restaurante!</h3>
-                    Nuestros queridos amigos del restaurante te recibirán con mucho cariño y te brindarán la 
-                    oportunidad de disfrutar de las deliciosas creaciones culinarias locales. Tendrás la 
-                    posibilidad de elegir entre una variedad de sabrosas recetas tradicionales de Jaén y 
-                    degustar numerosos platos típicos de la región, todos preparados con el respeto y la 
-                    fidelidad a las fórmulas y recetas originales de nuestros abuelos.
-                    <br/><br/><br/>
-                    <a id="avisita" href="../restaurante/home.html">Visita la p&aacute;gina.</a>
+                    <!-- pequeña bromita -->
+                    <a id="danger" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Nuestro canal!</a>
 
                 </div>
-            
 
-            <div id="aire_libre">
+            </div>
+
+        </nav>
+
+        <!-- Seccion de contenido principal de la pagina-->
+        <main>
+            
+            <section id="restaurante">
+                <div id="restIMG"></div>
+                <h3>Venid a conocer el restaurante!</h3>
+                Nuestros queridos amigos del restaurante te recibirán con mucho cariño y te brindarán la 
+                oportunidad de disfrutar de las deliciosas creaciones culinarias locales. Tendrás la 
+                posibilidad de elegir entre una variedad de sabrosas recetas tradicionales de Jaén y 
+                degustar numerosos platos típicos de la región, todos preparados con el respeto y la 
+                fidelidad a las fórmulas y recetas originales de nuestros abuelos.
+                <br/><br/><br/>
+                <a id="avisita" href="../restaurante/home.html target="  target="_blank">Visita la p&aacute;gina.</a>
+
+            </section>
+        
+
+            <section id="aire_libre">
                 <div id="aireIMG"></div>
                 <h3>Actividades al aire libre!</h3>
                 Asimismo, se encuentran disponibles diversas opciones de actividades al aire libre entre las cuales 
@@ -61,18 +94,24 @@
                 verdadera dificultad radicará en decidir cuál de estas emocionantes alternativas resultará ser la más 
                 memorable y entretenida.
                 <br/><br/><br/>
-                <a id="avisita" href="../aire_libre/home.html">Visita la p&aacute;gina.</a>
-            </div>
-           
+                <a id="avisita" href="../aire_libre/home.html" target="_blank">Visita la p&aacute;gina.</a>
+            </section>
 
-        </div>
+        </main>
 
-        <div id="footer">
+        <!-- Apartado informativo de la pagina-->
+        <footer>
+
+            <!-- Mascota fondo pagina-->
             <img id="gato" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHU0cHZ5YWF5azUyY2V4Y2FjaGhqcHcyb2h4dTZibDJtM2hid2hiMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/135DBazlXmCxos/giphy.gif">
 
+            <!-- caja contenido footer-->
             <div id="footerBox">
 
-                
+                <div class="loremBox">
+                    <a href="../aire_libre/home.html" target="_blank"><img src="IMG/link-aire-libre.png"></a>
+                </div>
+
                 <div class="loremBox">
                     <b>¿Qué es la política de cookies?</b>
                     Una cookie es un paquete de datos que 
@@ -80,23 +119,22 @@
                     automática en el ordenador de un usuario 
                     cuando este visita una página web. La 
                     cookie es enviada desde el servidor al 
-                     visitante de la página web. Posteriormente, 
-                    cada vez que el usuario visite esa 
-
-
+                    visitante de la página web.  
                 </div>
 
 
                 <div class="loremBox">
+                    Posteriormente, 
+                    cada vez que el usuario visite esa
                     misma página web o alguna otra del mismo dominio, 
                     la cookie será leída por el navegador web, 
                     sin ser modificada, y devuelta al servidor.
+                    Por tanto, las cookies son sólo datos que se 
+                    almacenan en el ordenador del usuario.
                 </div>
 
-
                 <div class="loremBox">
-                    Por tanto, las cookies son sólo datos que se 
-                    almacenan en el ordenador del usuario. Las 
+                     Las 
                     cookies no son software, tampoco son fragmentos 
                     de código, son simplemente datos. Por tanto, en 
                     principio las cookies no pueden transmitir y 
@@ -104,8 +142,13 @@
                     o programas de espionaje.
                 </div>
 
+                <div class="loremBox">
+                    <a href="../restaurante/home.html" target="_blank"><img src="IMG/link-restaurante.png"></a>
+                </div>
+
             </div>
-        </div>
+
+        </footer>
     </body>
 
 </html>
